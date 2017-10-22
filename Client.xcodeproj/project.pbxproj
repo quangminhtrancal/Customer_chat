@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA25FB8B1F9C2DA10041E27C /* big-picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA25FB851F9C2D9F0041E27C /* big-picture.jpg */; };
+		BA25FB8C1F9C2DA10041E27C /* both icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA25FB861F9C2D9F0041E27C /* both icon.png */; };
+		BA25FB8D1F9C2DA10041E27C /* Find user icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA25FB871F9C2DA00041E27C /* Find user icon.png */; };
+		BA25FB8E1F9C2DA10041E27C /* be support icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA25FB881F9C2DA00041E27C /* be support icon.png */; };
+		BA25FB8F1F9C2DA10041E27C /* support others icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA25FB891F9C2DA00041E27C /* support others icon.png */; };
+		BA25FB901F9C2DA10041E27C /* big-picture-mobile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA25FB8A1F9C2DA00041E27C /* big-picture-mobile.jpg */; };
+		BA503B121F9C475E00EA1128 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA503B111F9C475E00EA1128 /* SigninViewController.swift */; };
 		BAAA286B1F925C8400B1BB85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA286A1F925C8400B1BB85 /* AppDelegate.swift */; };
 		BAAA286D1F925C8400B1BB85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA286C1F925C8400B1BB85 /* ViewController.swift */; };
 		BAAA28701F925C8400B1BB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAA286E1F925C8400B1BB85 /* Main.storyboard */; };
@@ -38,6 +45,16 @@
 		2F79DE11469935274767B666 /* Pods_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FDFB501C7E481CA236A749 /* Pods-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client.release.xcconfig"; path = "Pods/Target Support Files/Pods-Client/Pods-Client.release.xcconfig"; sourceTree = "<group>"; };
 		B244BAF107078E8069BF6A73 /* Pods-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Client/Pods-Client.debug.xcconfig"; sourceTree = "<group>"; };
+		BA25FB851F9C2D9F0041E27C /* big-picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "big-picture.jpg"; path = "../../Cancerconnect/cancer-connect graphic assets/big-picture.jpg"; sourceTree = "<group>"; };
+		BA25FB861F9C2D9F0041E27C /* both icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "both icon.png"; path = "../../Cancerconnect/cancer-connect graphic assets/both icon.png"; sourceTree = "<group>"; };
+		BA25FB871F9C2DA00041E27C /* Find user icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Find user icon.png"; path = "../../Cancerconnect/cancer-connect graphic assets/Find user icon.png"; sourceTree = "<group>"; };
+		BA25FB881F9C2DA00041E27C /* be support icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "be support icon.png"; path = "../../Cancerconnect/cancer-connect graphic assets/be support icon.png"; sourceTree = "<group>"; };
+		BA25FB891F9C2DA00041E27C /* support others icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "support others icon.png"; path = "../../Cancerconnect/cancer-connect graphic assets/support others icon.png"; sourceTree = "<group>"; };
+		BA25FB8A1F9C2DA00041E27C /* big-picture-mobile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "big-picture-mobile.jpg"; path = "../../Cancerconnect/cancer-connect graphic assets/big-picture-mobile.jpg"; sourceTree = "<group>"; };
+		BA4B942E1F97C79A00CC355B /* small logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "small logo.png"; path = "../../Cancerconnect/cancer-connect graphic assets/small logo.png"; sourceTree = "<group>"; };
+		BA4B942F1F97C81600CC355B /* Logo 1920x1080.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Logo 1920x1080.tif"; path = "../../Cancerconnect/cancer-connect graphic assets/Logo 1920x1080.tif"; sourceTree = "<group>"; };
+		BA4B94301F97C9AA00CC355B /* Image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Image; sourceTree = SOURCE_ROOT; };
+		BA503B111F9C475E00EA1128 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		BAAA28671F925C8400B1BB85 /* Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAA286A1F925C8400B1BB85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAA286C1F925C8400B1BB85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,9 +104,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BA4B942D1F97C74500CC355B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BA25FB881F9C2DA00041E27C /* be support icon.png */,
+				BA25FB8A1F9C2DA00041E27C /* big-picture-mobile.jpg */,
+				BA25FB851F9C2D9F0041E27C /* big-picture.jpg */,
+				BA25FB861F9C2D9F0041E27C /* both icon.png */,
+				BA25FB871F9C2DA00041E27C /* Find user icon.png */,
+				BA25FB891F9C2DA00041E27C /* support others icon.png */,
+				BA4B942E1F97C79A00CC355B /* small logo.png */,
+				BA4B942F1F97C81600CC355B /* Logo 1920x1080.tif */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		BAAA285E1F925C8400B1BB85 = {
 			isa = PBXGroup;
 			children = (
+				BA4B942D1F97C74500CC355B /* Image */,
 				BAAA28691F925C8400B1BB85 /* Client */,
 				BAAA287E1F925C8400B1BB85 /* ClientTests */,
 				BAAA28891F925C8400B1BB85 /* ClientUITests */,
@@ -112,8 +145,10 @@
 		BAAA28691F925C8400B1BB85 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				BA4B94301F97C9AA00CC355B /* Image */,
 				BAAA286A1F925C8400B1BB85 /* AppDelegate.swift */,
 				BAAA286C1F925C8400B1BB85 /* ViewController.swift */,
+				BA503B111F9C475E00EA1128 /* SigninViewController.swift */,
 				BAAA286E1F925C8400B1BB85 /* Main.storyboard */,
 				BAAA28711F925C8400B1BB85 /* Assets.xcassets */,
 				BAAA28731F925C8400B1BB85 /* LaunchScreen.storyboard */,
@@ -259,7 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA25FB901F9C2DA10041E27C /* big-picture-mobile.jpg in Resources */,
+				BA25FB8D1F9C2DA10041E27C /* Find user icon.png in Resources */,
 				BAAA28751F925C8400B1BB85 /* LaunchScreen.storyboard in Resources */,
+				BA25FB8B1F9C2DA10041E27C /* big-picture.jpg in Resources */,
+				BA25FB8E1F9C2DA10041E27C /* be support icon.png in Resources */,
+				BA25FB8C1F9C2DA10041E27C /* both icon.png in Resources */,
+				BA25FB8F1F9C2DA10041E27C /* support others icon.png in Resources */,
 				BAAA28721F925C8400B1BB85 /* Assets.xcassets in Resources */,
 				BAAA28701F925C8400B1BB85 /* Main.storyboard in Resources */,
 			);
@@ -344,6 +385,7 @@
 			files = (
 				BAAA286D1F925C8400B1BB85 /* ViewController.swift in Sources */,
 				BAAA286B1F925C8400B1BB85 /* AppDelegate.swift in Sources */,
+				BA503B121F9C475E00EA1128 /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,11 +552,14 @@
 			baseConfigurationReference = B244BAF107078E8069BF6A73 /* Pods-Client.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 445HPXBH52;
 				INFOPLIST_FILE = Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -525,11 +570,14 @@
 			baseConfigurationReference = 43FDFB501C7E481CA236A749 /* Pods-Client.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 445HPXBH52;
 				INFOPLIST_FILE = Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
