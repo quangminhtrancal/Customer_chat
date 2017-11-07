@@ -17,8 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtout: UITextField!
     
     @IBOutlet weak var txtin: UITextField!
+    //localhost:8080
+    //let socket = SocketIOClient(socketURL: URL(string: "http://\(ip):2017")!, config: [.log(true), .compress])
+    let socket = SocketIOClient(socketURL: URL(string: "http://localhost:2017")!, config: [.log(true), .compress])
     
-    let socket = SocketIOClient(socketURL: URL(string: "http://\(ip):2017")!, config: [.log(true), .compress])
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
